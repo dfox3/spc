@@ -21,11 +21,17 @@ class Home extends React.Component {
         <div className="majorContainer">
           <div className="stickyHeader">
             <div className="container2">
-              <Logo2 className='normal' />
+              <Link className="sideLink" to='/'>
+                <Logo2 className='normal' />
+              </Link>
             </div>
             <div className="container1flex">
-              <p>the </p>
-              <h1>sport ball chakra</h1>
+              <Link className="sideLink" to='/'>
+                <p>the </p>
+              </Link>
+              <Link className="sideLink" to='/'>
+                <h1>sport ball chakra</h1>
+              </Link>
             </div>
           </div>
 
