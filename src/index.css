@@ -1,0 +1,18 @@
+.portraitPictureHover {
+    max-height: 475px;
+    width: auto;
+    font-size: 16px; 
+    font-family: Abel, sans-serif;
+    cursor: url(rightarrow.png);}
+
+.portraitPicture {
+    max-height: 475px;
+    width: auto;
+    font-size: 16px; 
+    font-family: Abel, sans-serif;
+    cursor: auto
+  }
+body {
+  margin: 0px;
+  padding: 0px;
+}
