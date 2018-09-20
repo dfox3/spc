@@ -21,10 +21,8 @@ export default class App extends Component {
   
   render() {
     return (
-      <Router>
-        <div className="majorContainer">
-          <Route exact path="/" render={()=><Home/>}/>
-        </div>
-      </Router>);}}
+      <div className="majorContainer">
+        <Home/>
+      </div>);}}
 
 render(<App />, document.getElementById('app'));

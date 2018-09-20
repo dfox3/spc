@@ -10,6 +10,13 @@
   font-style: normal;
   font-weight: 900;
 }
+.sideLink {
+  text-decoration: none
+}
+.activeSideLink {
+  text-decoration-color: rgba(113,251,221, 1);
+  text-decoration: underline
+}
 .stickyHeader {
   height: 100px;
   width: 100%;
@@ -104,4 +111,7 @@
 body {
   margin: 0;
   font-weight: 100;
+}
+a:visited {
+  text-decoration-color: rgba(113,251,221, 1);
 }
